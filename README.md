@@ -1,4 +1,4 @@
-![Hello there](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/494891f5-154a-4325-84db-412a108e94cd)
+![Header Image](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/4f343483-0932-4a4e-b647-9819c01f552d)
 
 <div align="center">
       <span>
