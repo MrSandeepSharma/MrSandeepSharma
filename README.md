@@ -1,12 +1,13 @@
-<h1 align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/github-images-51d28.appspot.com/o/png(3).png?alt=media&token=9dc1ee3e-1b8a-402f-ac49-db1c45584314" alt="header image">
-</h1>
+![Hello there](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/494891f5-154a-4325-84db-412a108e94cd)
 
-### Hi there 👋
-I’m Sandeep Sharma
-and I'm a self taught `Frontend Developer`.
-
- <!--and I Make `Accessible`, `Scalable`, `Maintainable` and `User friendly` web applications with Modern Best Practices -->
+<div align="center">
+      <span>
+        <a target="_black" href="https://www.instagram.com/sandip_sharma_24/?igshid=NTc4MTIwNjQ2YQ%3D%3D"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+     </span>
+     <span>
+        <a target="_black" href="https://www.linkedin.com/in/sandeep-sharma-49007828a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a>
+     </span>
+</div>
 
 ## 🛠 Skills
 * Frontend technologies
@@ -66,18 +67,6 @@ and I'm a self taught `Frontend Developer`.
          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
       </span>
     </div>
-
-## Say `Hello 👏` to me
-  * Social Media
-    
-    <div>
-      <span>
-        <a target="_black" href="https://www.instagram.com/sandip_sharma_24/?igshid=NTc4MTIwNjQ2YQ%3D%3D"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-     </span>
-     <span>
-        <a target="_black" href="https://www.linkedin.com/in/sandeep-sharma-49007828a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a>
-     </span>
-   </div>
   
 
 ## Github Stats
