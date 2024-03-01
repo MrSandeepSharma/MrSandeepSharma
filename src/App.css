@@ -1,42 +1,83 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --clr-primary-400: hsl(211, 100%, 50%);
+  --clr-primary-300: hsl(211, 100%, 35%);
+
+  --clr-bg: hsl(210, 17%, 98%);
+  --clr-accent-400: hsl(0, 0%, 20%);
+  --clr-accent-700: hsl(0, 0%, 100%);
+
+  --ff-logo: "Montserrat", sans-serif;
+  --ff-base: "Roboto", sans-serif;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 1.5rem;
+  --fs-700: 1.75rem;
+
+  --padding: 1rem;
+  --gap: 1rem;
+  --margin: 1rem;
+
+  --max-width: 550px;
 }
 
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-400);
+  background-color: var(--clr-bg);
+  color: var(--clr-accent-400);
+}
+
+/* typography */
+h1 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-700);
+}
+
+/* utility classes */
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  opacity: 0;
+}
+
+.skip-link:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}
+
+.container {
+  display: block;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+/* layout */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  font-family: var(--ff-logo);
+  font-weight: var(--fw-700);
+  font-size: var(--fs-700);
 }
