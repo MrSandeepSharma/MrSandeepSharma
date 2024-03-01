@@ -34,7 +34,7 @@ body {
 
 /* typography */
 h1 {
-  font-size: var(--fs-700);
+  font-size: var(--fs-600);
   font-weight: var(--fw-700);
 }
 
@@ -53,31 +53,221 @@ h1 {
 	white-space: nowrap !important;            /* 3 */
 }
 
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  z-index: 999;
-  padding: 1em;
-  background-color: black;
-  color: white;
-  opacity: 0;
-}
-
-.skip-link:focus {
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 1;
-}
-
 .container {
   display: block;
   max-width: var(--max-width);
   margin: auto;
 }
 
+.flex-container {
+  --gap: .5rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap);
+}
+
 /* layout */
+main {
+  padding: var(--padding);
+  padding-top: 0;
+  margin: 0;
+}
+
 .logo {
   font-family: var(--ff-logo);
   font-weight: var(--fw-700);
+  font-size: var(--fs-600);
+  color: var(--clr-accent-400);
+}
+
+.logo:focus {
+  outline: 2px dotted var(--clr-accent-400);
+  outline-offset: 4px;
+}
+
+/* Home Page */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.homepage__hero {
+  --padding: 3rem 1rem;
+
+  margin: 0 -1rem;
+  padding: var(--padding);
+  background: #E9E8EB url(./assets/home-hero-bg.svg) no-repeat;
+  background-size: cover;
+}
+
+.home__hero__bold,
+.home__hero__title {
   font-size: var(--fs-700);
+  font-weight: var(--fw-700);
+}
+
+.home__hero__bold span {
+  color: var(--clr-primary-400);
+}
+
+.home__hero__title {
+  font-weight: var(--fw-500);
+  margin-bottom: 1.5rem;
+  max-width: 300px;
+}
+
+/* Resource Page */
+.resourcepage {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.resourcepage__hero {
+  --padding: 2rem 1rem;
+
+  padding: var(--padding);
+  margin-top: var(--margin);
+  background-color: var(--clr-accent-700);
+  box-shadow: .5rem .5rem 0 0 var(--clr-accent-400);
+  border: 2px solid var(--clr-accent-400);
+  position: relative;
+}
+
+.resourcepage__hero::after {
+  content: "";
+  background: url(./assets/bg-illustration.svg) no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 88px;
+  position: absolute;
+  bottom: -4rem;
+  right: -1rem;
+  z-index: -100;
+}
+
+.resourcepage__hero__title {
+  font-size: var(--fs-700);
+  width: fit-content;
+}
+
+.resourcepage__hero__desc {
+  font-size: var(--fs-400);
+  margin-bottom: var(--margin);
+}
+
+.resourcepage__hero__components {
+  --gap: .5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.resourcepage__hero__components .secondary-btn {
+  font-size: var(--fs-400);
+}
+
+.resourcepage__content,
+.resourcepage__content__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.resourcepage__content {
+  margin-top: 2rem;
+}
+
+.content__title {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-700);
+  width: fit-content;
+  position: relative;
+}
+
+.content__title::after {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: var(--clr-primary-400);
+}
+
+.content__container {
+  --gap: .5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.content__container .smallCard {
+  flex: 1 300px;
+}
+
+@media (min-width: 550px) {
+  :root {
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.75rem;
+    --fs-700: 2.25rem;
+  
+    --padding: 1.25rem;
+  
+    --max-width: 860px;
+  }
+
+  /* Home Page */
+  .home__hero__title {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 860px) {
+  :root {
+    --max-width: 1500px;
+  }
+
+  /* Home Page */
+  .homepage__hero {
+    --padding: 5rem 3rem;
+    background-size: contain;
+    background-position: right;
+  }
+
+  .home__hero__title {
+    max-width: 500px;
+  }
+
+  /* Resource Page */
+  .resourcepage__hero {
+    --padding: 2rem;
+    
+    max-width: 700px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .resourcepage__hero::after {
+    width: 300px;
+    height: 265px;
+    bottom: -6rem;
+    right: -5rem;
+  }
+
+  .resourcepage__content {
+    padding: 1rem 3rem;
+  }
+
+  .content__container {
+    --gap: 1rem;
+  } 
+
 }

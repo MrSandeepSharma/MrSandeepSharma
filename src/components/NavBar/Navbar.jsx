@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 
 import "./navbar.css"
 
-function Navbar({navItems, ...rest}) {
+function Navbar({navItems, menu=false, ...rest}) {
   const [navOpen, setNavOpen] = useState(false)
 
   function toggle() {
@@ -15,15 +15,19 @@ function Navbar({navItems, ...rest}) {
 
   return (
     <nav {...rest}>
-        <button className='nav__btn' aria-controls='nav-list' aria-expanded={navOpen} onClick={toggle}>
+        {
+          menu ? 
+          <button className='nav__btn' aria-controls='nav-list' aria-expanded={navOpen} onClick={toggle}>
             <span className='sr-only'>menu</span>
             {
                 navOpen ? <IoMdClose /> : <RiMenu3Line />
             }
-        </button>
+          </button>
+          : ""
+        }
         <ul id='nav-list' className='nav__list'>
             {navItems.map(item => (
-                <li className='nav__items'  onClick={toggle}><NavLink to={item.path}>{item.name}</NavLink></li>
+                <li key={item.name} className='nav__items'  onClick={menu ? toggle : ""}><NavLink to={item.path}>{item.name}</NavLink></li>
             ))}
         </ul>
     </nav>

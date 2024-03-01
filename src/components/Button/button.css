@@ -1,0 +1,49 @@
+.btn-link {
+    --padding: .5rem 1rem;
+
+    width: fit-content;
+    padding: var(--padding);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-700);
+    background-color: var(--clr-primary-400);
+    color: var(--clr-accent-700);
+    border: 0;
+    border-radius: 4px;
+}
+
+.btn-link svg {
+    color: var(--clr-accent-700);
+}
+
+.btn-link:hover {
+    background-color: var(--clr-primary-300);
+}
+
+.btn-link:focus {
+    outline: 2px dotted var(--clr-accent-400);
+    outline-offset: 4px;
+}
+
+.secondary-btn {
+    --padding: .5rem 1rem;
+
+    display: block;
+    width: fit-content;
+    padding: var(--padding);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-500);
+    background-color: var(--clr-accent-700);
+    border: 2px solid var(--clr-accent-400);
+    border-radius: 4px;
+    box-shadow: .15rem .15rem 0 0 var(--clr-accent-400);
+}
+
+.secondary-btn:hover {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-accent-700);
+}
+
+.secondary-btn:focus {
+    outline: 2px dotted var(--clr-accent-400);
+    outline-offset: 4px;
+}

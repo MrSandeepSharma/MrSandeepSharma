@@ -1,0 +1,29 @@
+.smallCard {
+    padding: var(--padding);
+    border: 2px solid var(--clr-accent-400);
+    box-shadow: .2rem .2rem 0 0 var(--clr-accent-400);
+}
+
+.smallCard h2 {
+    font-size: var(--fs-600);
+    font-weight: var(--fw-700);
+    margin-bottom: .5rem;
+}
+
+.smallCard p {
+    margin-bottom: .5rem;
+}
+
+.smallCard .btn {
+    width: 100%;
+}
+
+@media (min-width: 860px) { 
+    .smallCard h2 {
+        margin-bottom: 1rem;
+    }
+    
+    .smallCard p {
+        margin-bottom: 1rem;
+    }
+}

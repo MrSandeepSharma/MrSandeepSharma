@@ -3,12 +3,13 @@ import "./header.css"
 
 import Logo from '../Logo'
 import { Navbar } from '../NavBar'
+import { Link } from 'react-router-dom'
 
 function Header() {
     const navItems = [
         {
             name: "Resources",
-            path: "/"
+            path: "resources"
         },
         {
             name: "Projects",
@@ -22,8 +23,8 @@ function Header() {
 
   return (
     <header className='container header'>
-        <Logo />
-        <Navbar navItems={navItems} aria-label="Primary Navigation" />
+        <Link className='logo' to="/"><Logo /></Link>
+        <Navbar menu="true" navItems={navItems} aria-label="Primary Navigation" />
     </header>
   )
 }
