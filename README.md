@@ -19,6 +19,9 @@
       <span>
        <img src="https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white" alt="css3">
       </span>
+      <span>
+         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+      </span>
   </div>
 
 * Languages
@@ -57,17 +60,6 @@
         <img src="https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black" alt="Netlify">
       </span>
     </div>
-
-## 🔭 Currently Learning
-
-  * Libraries
-    
-    <div>
-      <span>
-         <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-      </span>
-    </div>
-  
 
 ## Github Stats
    [![GitHub Streak](https://streak-stats.demolab.com?user=MrSandeepSharma)](https://git.io/streak-stats)
