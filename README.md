@@ -1,4 +1,4 @@
-![Frame 2 1](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/90500d75-710c-4932-afe6-f785e14fe7b1)
+![325887951-90500d75-710c-4932-afe6-f785e14fe7b1](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/4508b2a4-36f4-40a3-a2ff-d1b16c752c72)
 
 <div align="center">
       <h2>Let’s Connect and have a chat!💭</h2>
@@ -22,9 +22,8 @@
      </span>
 </div>
 
-
 <h2 align="center">
-      <img src="https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/6cf1bf34-b30b-44bc-9d52-a493a1b5586e" />
+      <img src="https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/2e3caf76-07ea-407a-ab02-d9c58ac9ab53" />
 </h2>
 
 ## 👨🏻‍💻  A Little Bit About Me and My Interests
@@ -126,4 +125,4 @@
     </span>
   </div>
 
-![Vector](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/c2b96925-92ab-4cc4-a47f-7033f55066d0)
+![325879271-c2b96925-92ab-4cc4-a47f-7033f55066d0](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/a91c5e85-8402-417e-8bf8-94c2fd740c51)
