@@ -1,5 +1,9 @@
 ![325887951-90500d75-710c-4932-afe6-f785e14fe7b1](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/4508b2a4-36f4-40a3-a2ff-d1b16c752c72)
 
+![Group 10](https://github.com/user-attachments/assets/4f8bce42-72f8-4812-a674-e47955be50d0)
+![Vector](https://github.com/user-attachments/assets/4d715e0d-90f8-4183-a402-1544df75e637)
+
+
 <div align="center">
       <h2>Let’s Connect and have a chat!💭</h2>
 </div>
