@@ -1,8 +1,4 @@
-![325887951-90500d75-710c-4932-afe6-f785e14fe7b1](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/4508b2a4-36f4-40a3-a2ff-d1b16c752c72)
-
 ![Group 10](https://github.com/user-attachments/assets/4f8bce42-72f8-4812-a674-e47955be50d0)
-![Vector](https://github.com/user-attachments/assets/4d715e0d-90f8-4183-a402-1544df75e637)
-
 
 <div align="center">
       <h2>Let’s Connect and have a chat!💭</h2>
@@ -20,7 +16,7 @@
         </a>
      </span>
       <span>
-        <a target="_black" href="https://www.instagram.com/sandip_sharma_24/?igshid=NTc4MTIwNjQ2YQ%3D%3D">
+        <a target="_black" href="https://www.instagram.com/sandipsharma_24/?igshid=NTc4MTIwNjQ2YQ%3D%3D">
               <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
         </a>
      </span>
@@ -47,12 +43,12 @@
         ]
       technical_background:
         [
-          "Full Stack Developer",
-          "Mern Stack Developer"
+          "Frontend Developer",
+          "React Developer"
         ]
         
       currently_learning: ["UI/UX"]
-      2024 Goals: ["Create 3+ FullStack Projects"]
+      2024 Goals: ["wants to fall in love with JavaScript"]
       hobbies: ["Gaming", "Movies", "Cricket", "Comedy"]
 
 ## 🚀  Some Tools I Have Used and Learned
@@ -86,24 +82,6 @@
          <img src="https://img.shields.io/badge/Material%20Design-757575.svg?style=for-the-badge&logo=Material-Design&logoColor=white" alt="Material-UI">
       </span>
       <span>
-        <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs">
-      </span>
-      <span>
-        <img src="https://img.shields.io/badge/EJS-B4CA65.svg?style=for-the-badge&logo=EJS&logoColor=black" alt="ejs">
-      </span>
-      <span>
-        <img src="https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white" alt="express">
-      </span>
-      <span>
-        <img src="https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white" alt="mongoose">
-      </span>
-      <span>
-        <img src="https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white" alt="mongodb">
-      </span>
-      <span>
-        <img src="https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=MySQL&logoColor=white" alt="my sql">
-      </span>
-      <span>
         <img src="https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black" alt="firebase">
      </span>
       <span>
@@ -129,4 +107,4 @@
     </span>
   </div>
 
-![325879271-c2b96925-92ab-4cc4-a47f-7033f55066d0](https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/a91c5e85-8402-417e-8bf8-94c2fd740c51)
+![Vector (1)](https://github.com/user-attachments/assets/f8d5acb7-9b88-47e4-a497-cc79bf232c9c)
