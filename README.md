@@ -23,7 +23,7 @@
 </div>
 
 <h2 align="center">
-      <img src="https://github.com/MrSandeepSharma/MrSandeepSharma/assets/142038020/2e3caf76-07ea-407a-ab02-d9c58ac9ab53" />
+      <img src="https://github.com/user-attachments/assets/05dc3595-b108-4616-830b-94e0c4e44b96" />
 </h2>
 
 ## 👨🏻‍💻  A Little Bit About Me and My Interests
